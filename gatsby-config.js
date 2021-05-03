@@ -1,6 +1,7 @@
 module.exports = {
   pathPrefix: '/EricPortfolio',
   plugins: [
+    `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
