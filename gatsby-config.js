@@ -1,7 +1,6 @@
 module.exports = {
   pathPrefix: '/EricPortfolio',
   plugins: [
-    `gatsby-plugin-image`,
     `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
@@ -11,14 +10,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `${__dirname}src/images/`,
+        path: `../GoodPortfolio/src/images`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `${__dirname}src/pages/`,
+        path: `../GoodPortfolio/src/pages`,
       },
     },
     {
