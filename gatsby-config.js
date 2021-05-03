@@ -10,14 +10,14 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
-        path: `../EricPortfolio/src/images`,
+        path: `${__dirname}/src/images/`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,
-        path: `../EricPortfolio/src/pages`,
+        path: `${__dirname}/src/pages/`,
       },
     },
     {
