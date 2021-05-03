@@ -20,14 +20,6 @@ export default function HTML({
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {headComponents}
-        <meta name="image" property="og:image" content="../static/portfolioHomepage.png" />
-        <meta property="og:title" content="Eric Bourne" />
-        <meta
-          property="og:description"
-          content="This is my portfolio showcasing my favourite projects I've either built or been a member of building."
-        />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
       </head>
       <body {...bodyAttributes}>
         {preBodyComponents}

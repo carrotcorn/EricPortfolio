@@ -4,7 +4,9 @@ import { nanoid } from 'nanoid';
 export const headData = {
   title: 'Eric Bourne | Web Application Software Developer',
   lang: 'en',
-  description: 'This is my portfolio',
+  description:
+    "This is my portfolio showcasing my favourite projects I've either built or been a member of building.",
+  ogImg: 'portfolioHomepage.png',
 };
 
 // HERO DATA
@@ -19,7 +21,7 @@ export const heroData = {
 export const aboutData = {
   img: 'nitaLakeGood.jpg',
   paragraphOne:
-    "I am a tenacious full-stack web developer who has a specialty in MERN stack web applications. I graduated from the British Columbia Institute of Technology's Software Systems Development Program with distinction in May of 2020",
+    "I am a tenacious full-stack web developer who has a specialty in MERN stack web applications. I graduated from the British Columbia Institute of Technology's Software Systems Development Program with distinction in May of 2020.",
   paragraphTwo:
     'Along with MERN applications, I also have experience with Object Oriented Programming with Java and C#, testing with Mocha/Chai, Database management with SQL, along with other frame works like Gatsby, ASP.NET, Angular. I also have experience with Docker, AWS, Azure, and Digital Ocean.',
   paragraphThree:
@@ -37,7 +39,7 @@ export const projectsData = [
     title: 'Sonar Music Network',
 
     info:
-      'Passion project working with a fellow BCIT graduate Lucas Johnson, building a music social network that allows musicians to connect and meet up to jam and play gigs. Users can filter classifieds based on type, such as buy/sell, looking for musicians/band, along wiht other filters like price, a users experience. Users can also rate other suers based on their professionalism. This is just phase one of our deployment and this will be an ongoing business for years to come. This is a dockerized MERN stack application with Lucas and I splitting the work in half.',
+      'Passion project working with a fellow BCIT graduate Lucas Johnson, building a music social network that allows musicians to connect and meet up to jam and play gigs. Users can filter classifieds based on type, such as buy/sell, looking for musicians/band, along with other filters like price, a users experience. Users can also rate other suers based on their professionalism. This is just phase one of our deployment and this will be an ongoing business for years to come. This is a dockerized MERN stack application with Lucas and I splitting the work in half.',
     url: 'https://www.sonarmusic.social',
   },
   {

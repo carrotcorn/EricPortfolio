@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
 export default () => {
-  const { title, lang, description } = headData;
+  const { title, lang, description, ogImg } = headData;
 
   return (
     <>
@@ -15,6 +15,7 @@ export default () => {
         <title>{title}</title>
         <html lang={lang} />
         <meta name="description" content={description} />
+        <meta name="image" property="og:image" content={ogImg} />
       </Helmet>
       <App />
     </>
