@@ -20,7 +20,7 @@ export default function HTML({
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         {headComponents}
-        <meta name="image" property="og:image" content="https://imgur.com/a/JSVA4nc" />
+        <meta name="image" property="og:image" content="../static/portfolioHomepage.png" />
         <meta property="og:title" content="Eric Bourne" />
         <meta
           property="og:description"
