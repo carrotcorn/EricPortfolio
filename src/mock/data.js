@@ -39,7 +39,7 @@ export const projectsData = [
     title: 'Sonar Music Network',
 
     info:
-      'Passion project working with a fellow BCIT graduate Lucas Johnson, building a music social network that allows musicians to connect and meet up to jam and play gigs. Users can filter classifieds based on type, such as buy/sell, looking for musicians/band, along with other filters like price, a users experience. Users can also rate other suers based on their professionalism. This is just phase one of our deployment and this will be an ongoing business for years to come. This is a dockerized MERN stack application with Lucas and I splitting the work in half.',
+      'Passion project working with a fellow BCIT graduate Lucas Johnson, building a music social network that allows musicians to connect and meet up to jam and play gigs. Users can filter classifieds based on type, such as buy/sell, looking for musicians/band, along with other filters like price, a users experience. Users can also rate other users based on their professionalism. This is just phase one of our deployment and this will be an ongoing business for years to come. This is a dockerized MERN stack application with Lucas and I splitting the work in half.',
     url: 'https://www.sonarmusic.social',
   },
   {
