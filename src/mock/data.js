@@ -23,7 +23,7 @@ export const aboutData = {
   paragraphOne:
     "I am a tenacious full-stack web developer who has a specialty in MERN stack web applications. I graduated from the British Columbia Institute of Technology's Software Systems Development Program with distinction in May of 2020.",
   paragraphTwo:
-    'Along with MERN applications, I also have experience with Object Oriented Programming with Java and C#, testing with Mocha/Chai, Database management with SQL, along with other frame works like Gatsby, ASP.NET, Angular. I also have experience with Docker, AWS, Azure, and Digital Ocean.',
+    'Along with MERN applications, I also have experience with Object Oriented Programming with Java and C#, testing with Mocha/Chai, Database management with SQL, along with other frame works like Gatsby, ASP.NET, and Angular. I also have experience with Docker, AWS, Azure, and Digital Ocean.',
   paragraphThree:
     ' I have an intense love of Computer Science and am constantly working on new projects along with my side business Sonar Music Network Inc. I love coding and computer science which is why I am constantly learning and am excited for what the future holds.',
   paragraphFour:
