@@ -76,7 +76,7 @@ export const contactData = {
   email: 'ericbourne6371@gmail.com',
 };
 
-// FOOTER DATA
+// FOOTER DATAa
 export const footerData = {
   networks: [
     {
