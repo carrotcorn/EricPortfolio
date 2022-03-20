@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: 'Eric Bourne | Web Application Software Developer',
+  title: 'Eric Bourne | Web Application Developer',
   lang: 'en',
   description:
     "This is my portfolio showcasing my favourite projects I've either built or been a member of building.",
@@ -13,7 +13,7 @@ export const headData = {
 export const heroData = {
   title: "Hi, I'm",
   name: 'Eric Bourne',
-  subtitle: 'and I am a Software Developer',
+  subtitle: 'and I am a Web Developer',
   cta: 'Know More',
 };
 
@@ -25,7 +25,7 @@ export const aboutData = {
   paragraphTwo:
     'Along with MERN applications, I also have experience with Object Oriented Programming with Java and C#, testing with Mocha/Chai, Database management with SQL, along with other frame works like Gatsby, ASP.NET, and Angular. I also have experience with Docker, AWS, Azure, and Digital Ocean.',
   paragraphThree:
-    ' I have an intense love of Computer Science and am constantly working on new projects along with my side business Sonar Music Network Inc. I love coding and computer science which is why I am constantly learning and am excited for what the future holds.',
+    ' I have an intense love of Computer Science and am constantly working on new side projects. I love coding and computer science which is why I am constantly learning and am excited for what the future holds.',
   paragraphFour:
     'Aside from computer science, I am also an avid lover of everything outdoors, be it snowboarding, surfing, mountain biking, and camping. I also am an experienced musician having played drums for over 20 years and guitar for 10. ',
   resume: 'EricBourneResume.pdf',
@@ -39,8 +39,8 @@ export const projectsData = [
     title: 'Sonar Music Network',
 
     info:
-      'Passion project working with a fellow BCIT graduate Lucas Johnson, building a music social network that allows musicians to connect and meet up to jam and play gigs. Users can filter classifieds based on type, such as buy/sell, looking for musicians/band, along with other filters like price, a users experience. Users can also rate other users based on their professionalism. This is just phase one of our deployment and this will be an ongoing business for years to come. This is a dockerized MERN stack application with Lucas and I splitting the work in half.',
-    url: 'https://www.sonarmusic.social',
+      'Passion project working with a fellow BCIT graduate Lucas Johnson, building a music social network that allows musicians to connect and meet up to jam and play gigs. Users can filter classifieds based on type, such as buy/sell, looking for musicians/band, along with other filters like price, a users experience. Users can also rate other users based on their professionalism. This is a dockerized MERN stack application with Lucas and I splitting the work in half. Unfortunately the site is no longer live due to finance issues.',
+    url: 'https://www.eric-bourne.com/404',
   },
   {
     id: nanoid(),
@@ -50,6 +50,15 @@ export const projectsData = [
       'Industry group project done in conjunction with Porton Health to make a kiosk check-in application that allows for patients to check in. Built with a Node.js backend utilizing Egg, a Koa framework, with a React frontend and material-ui components.',
     // url: '',
     repo: 'https://github.com/carrotcorn/PortonHealthKioskAdminFrontend',
+  },
+  {
+    id: nanoid(),
+    img: 'PetFinder.png',
+    title: 'Adopt a Pet Search Page',
+    info:
+      'This is a multi-page web application coded in React utilizing dummy data sourced from a pre-made API. This web application has full search functionality with filters for type of animal, and breed. Individual animal views shows a gallery of the pet along with a button to adopt. Tools used in the development of this application include Parcel and Prettier.',
+    // url: '',
+    repo: 'https://github.com/carrotcorn/Pet-Finder',
   },
   {
     id: nanoid(),
@@ -64,7 +73,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  email: 'eric@sonarmusic.social',
+  email: 'ericbourne6371@gmail.com',
 };
 
 // FOOTER DATA
