@@ -35,12 +35,11 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'sonarScreen.png',
-    title: 'Sonar Music Network',
-
+    img: 'sechosHome.png',
+    title: 'The Social Echoes',
     info:
-      'Passion project working with a fellow BCIT graduate Lucas Johnson, building a music social network that allows musicians to connect and meet up to jam and play gigs. Users can filter classifieds based on type, such as buy/sell, looking for musicians/band, along with other filters like price, a users experience. Users can also rate other users based on their professionalism. This is a dockerized MERN stack application with Lucas and I splitting the work in half. Unfortunately the site is no longer live due to finance issues.',
-    url: 'https://www.eric-bourne.com/404',
+      'Blog style website for local educational organization which focuses on the education of Indigenous Reconciliation. The website features a custom made image gallery to read information on the individual members. It also features an article search for their blog posts. This website was built with React frontend and Sanity Studio backend',
+    url: 'https://thesocialechoes.netlify.app/',
   },
   {
     id: nanoid(),
